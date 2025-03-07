@@ -1,4 +1,8 @@
 ---
+import Footer from '../components/Footer.astro';
+import Navigation from '../components/Navigation.astro';
+import '../styles/global.css';
+
 const pageTitle = "Definitely the landing page of all times";
 ---
 
@@ -11,10 +15,9 @@ const pageTitle = "Definitely the landing page of all times";
     <title>Astro</title>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+    <Navigation />
 
     <h1>{pageTitle}</h1>
+    <Footer />
   </body>
 </html>
