@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "The blog and stuff";
 ---
 
 <html lang="en">
@@ -15,11 +15,16 @@
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
 
-    <h1>The astro blog of all time is great</h1>
+    <h1>{pageTitle}</h1>
 
     <p>
       We are blogging with this one. This is truly when I blog for a long time
       about text that is about my life.
     </p>
+    <ul>
+      <li><a href="/posts/post-1/">Post 1</a></li>
+      <li><a href="/posts/post-2/">Post 2</a></li>
+      <li><a href="/posts/post-3/">Post 3</a></li>
+    </ul>
   </body>
 </html>
